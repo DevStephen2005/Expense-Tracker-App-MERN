@@ -32,8 +32,8 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/sharmaHarshit2000/expense-tracker.git
-cd expense-tracker
+git clone https://github.com/DevStephen2005/Expense-Tracker-App-MERN.git
+cd Expense-Tracker-App-MERN
 ```
 
 ### 2. Backend Setup
