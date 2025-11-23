@@ -13,7 +13,7 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 - Admin Panel to View All Expenses and Audit Logs
 - CSV Export for Admins
 - Insight Charts using Recharts
-- Responsive UI with TailwindCSS / Material UI
+- Responsive UI with TailwindCSS 
 - Toast Notifications for Feedback
 
 ---
@@ -94,56 +94,5 @@ npm run dev
 - Output directory: `dist` (for Vite)
 
 ---
-
-## 📁 Folder Structure
-
-```txt
-expense-tracker/
-├── backend/
-│   ├── server.js
-│   ├── config/
-│   ├── middlewares/
-│   │   ├── authMiddleware.js
-│   │   ├── errorHandler.js
-│   │   └── notFound.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── expenseRoutes.js
-│   │   └── auditRoutes.js
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── expenseController.js
-│   │   └── auditController.js
-│   ├── models/
-│   │   ├── User.js
-│   │   ├── Expense.js
-│   │   └── AuditLog.js
-│   └── utils/
-│       └── generateToken.js
-│
-├── frontend/
-│   ├── App.jsx
-│   ├── main.jsx
-│   ├── components/
-│   │   ├── Header.jsx
-│   │   ├── ProtectedRoute.jsx
-│   │   ├── Footer.jsx
-│   ├── pages/
-│   │   ├── LoginPage.jsx
-│   │   ├── RegisterPage.jsx
-│   │   ├── Dashboard.jsx
-│   │   ├── AdminPanel.jsx
-│   │   ├── ExpenseForm.jsx
-│   │   ├── AuditLogs.jsx
-│   │   └── Insight.jsx
-│   ├── context/
-│   │   └── AuthContext.jsx
-│   ├── api/
-│   │   ├── auth.js
-│   │   ├── audit.js
-│   │   ├── expense.js
-│   │   └── axios.js
-
-```
 
 
