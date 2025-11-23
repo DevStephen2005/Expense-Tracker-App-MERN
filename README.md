@@ -20,9 +20,9 @@ A full-stack MERN (MongoDB, Express, React, Node.js) application to manage and t
 
 ## 🧰 Tech Stack
 
-- **Frontend:** React, Redux Toolkit, TailwindCSS or MUI, Axios
+- **Frontend:** React, TailwindCSS, Axios
 - **Backend:** Node.js, Express.js, MongoDB, Mongoose, JWT
-- **Deployment:** Render (Backend), Vercel/Render (Frontend)
+- **Deployment:** Render (Backend), Vercel (Frontend)
 - **Charting:** Recharts (Insights)
 
 ---
